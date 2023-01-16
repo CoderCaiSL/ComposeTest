@@ -59,4 +59,12 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
+    implementation "androidx.paging:paging-compose:1.0.0-alpha12"
+    implementation ("com.google.accompanist:accompanist-swiperefresh:0.18.0")
+
+
+    implementation "com.google.accompanist:accompanist-coil:0.11.0"
+    implementation "com.google.accompanist:accompanist-insets:0.17.0"
+//    implementation 'androidx.paging:paging-runtime:3.1.1' //这是androidx activity使用的版本
+
 }
